@@ -34,7 +34,7 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={`container ${styles.navContainer}`}>
         <Link href="/" className={styles.logo}>
-          Portfolio
+          David Harley
         </Link>
 
         {/* Desktop Nav */}
