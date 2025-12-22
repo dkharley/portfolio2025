@@ -28,13 +28,8 @@
     border-bottom: none;
 }
 
-.postLink {
-    display: block;
-}
+/* .postLink removed */
 
-.postLink:hover h2 {
-    color: var(--primary);
-}
 
 .postMeta {
     font-size: 0.875rem;
