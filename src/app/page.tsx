@@ -3,6 +3,8 @@ import Image from 'next/image';
 import styles from './page.module.css';
 import { ArrowRight } from 'lucide-react';
 
+import profilePic from '@/assets/images/profile.png';
+
 export default function Home() {
   return (
     <div className="container">
@@ -10,7 +12,7 @@ export default function Home() {
         <div className={styles.heroContent}>
           <div className={styles.profileImageWrapper}>
             <Image
-              src="/images/profile.png"
+              src={profilePic}
               alt="Profile"
               width={200}
               height={193}
