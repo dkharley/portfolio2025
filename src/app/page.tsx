@@ -21,9 +21,21 @@ export default function Home() {
             />
           </div>
           <div className={styles.heroText}>
-            <h1 className={styles.title}>
-              Hey there...
-            </h1>
+            <div className={styles.mobileHeader}>
+              <div className={styles.mobileProfileImageWrapper}>
+                <Image
+                  src={profilePic}
+                  alt="Profile"
+                  width={100}
+                  height={96.5}
+                  className={styles.mobileProfileImage}
+                  priority
+                />
+              </div>
+              <h1 className={styles.title}>
+                Hey there...
+              </h1>
+            </div>
             <p className={styles.subtitle}>
               I'm a Developer excited for new opportunities and challenges. I consider myself a lifelong learner and work hard to stay up to date with the latest technologies. I create modern, accessible, and performant web applications, working in frontend, backend and cloud technologies.
               Look around to learn more about me and my work.
